@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    /* ancho */
+    padding: 0px;
+    /*relleno*/
+    font-family: verdana;
+    /* familia de fuentes */
+    color: #bcbcbc;
+}
+
+div#menu {
+    position: absolute;
+    width: 65px;
+    height: 100%;
+    /* alto*/
+    background-color: #2F3030;
+    /* fondo */
+    overflow: hidden;
+    /*dice al navegador que todo lo que este afuera del div no se vea*/
+    -webkit-transition: width 0.5s;
+    /*webkit chrome moz mozilla añade la transicion*/
+}
+
+div#menu:hover {
+    width: 200px;
+}
+
+div#logo_principal {
+    width: 32px;
+    height: 32px;
+    margin: 10px;
+    background-image: url(../../../../assets/img/Align-Left-32.png);
+    margin-top: 10px;
+}
+
+div.contenedor_general {
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+div.Noticias {
+    width: 32px;
+    height: 32px;
+    background-image: url(../../../../assets/img/News-32.png);
+    float: left;
+}
+
+div.Notificaciones {
+    width: 32px;
+    height: 32px;
+    background-image: url(../../../../assets/img//Bell-32.png);
+    float: left;
+}
+
+div.Perfil {
+    width: 32px;
+    height: 32px;
+    background-image: url(../../../../assets/img//User-Profile-32.png);
+    float: left;
+}
+
+div.Usuarios {
+    width: 32px;
+    height: 32px;
+    background-image: url(../../../../assets/img//People-32.png);
+    float: left;
+}
+
+div.Calendario {
+    width: 32px;
+    height: 32px;
+    background-image: url(../../../../assets/img//Calendar-Date-02-32.png);
+    float: left;
+}
+
+p.texto {
+    margin-left: 60px;
+    line-height: 32px;
+    /*diferencia entre lines de texto*/
+    color: white;
+}
+
+div#espacio {
+    /*espacio para mover los iconos*/
+    margin-top: 300px;
+}
+
+div.Sombreado {
+    position: absolute;
+    height: 34px;
+    width: 0px;
+    background-color: #aaa;
+    opacity: 0.1;
+    -webkit-transition: width .3s;
+}
+
+div.contenedor_general:hover div.Sombreado {
+    width: 300px;
+}
+
+header {
+    background-color: gray;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    border: 20PX;
+    background-color: #2F3030;
+    width: 1125px
+}
