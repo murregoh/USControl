@@ -10,7 +10,7 @@
 
 div#menu {
     position: absolute;
-    width: 65px;
+    width: 200px;
     height: 100%;
     /* alto*/
     background-color: #2F3030;
@@ -29,7 +29,7 @@ div#logo_principal {
     width: 32px;
     height: 32px;
     margin: 10px;
-    background-image: url(../../../../assets/img/Align-Left-32.png);
+    background-image: url();
     margin-top: 10px;
 }
 
@@ -42,21 +42,18 @@ div.contenedor_general {
 div.Noticias {
     width: 32px;
     height: 32px;
-    background-image: url(../../../../assets/img/News-32.png);
     float: left;
 }
 
 div.Notificaciones {
     width: 32px;
     height: 32px;
-    background-image: url(../../../../assets/img//Bell-32.png);
     float: left;
 }
 
 div.Perfil {
     width: 32px;
     height: 32px;
-    background-image: url(../../../../assets/img//User-Profile-32.png);
     float: left;
 }
 
